@@ -1,4 +1,4 @@
 # freeCodeCamp
 My freeCodeCamp coding snippets.
 
-![image](https://github.com/auspbro/freeCodeCamp/res/600x72 freeCodeCamp logo for Medium publication.png)
+![image](https://github.com/auspbro/freeCodeCamp/blob/master/res/600x72%20freeCodeCamp%20logo%20for%20Medium%20publication.png)
