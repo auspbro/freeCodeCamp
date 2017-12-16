@@ -8,27 +8,11 @@
   <title>Document</title>
   <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
 
   <style>
-    #cat-photo-form {
-      background-color: green;
-    }
-
-    .gray-background {
-      background-color: gray;
-    }
-
-    .red-text {
-      color: red;
-    }
-
     h2 {
       font-family: Lobster, Monospace;
-    }
-
-    p {
-      font-size: 16px;
-      font-family: Monospace;
     }
 
     .thick-green-border {
@@ -37,34 +21,43 @@
       border-style: solid;
       border-radius: 50%;
     }
-
-    .smaller-image {
-      width: 100px;
-    }
   </style>
 
 </head>
 
 <body>
   <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-8">
+        <h2 class="text-primary text-center">CatPhotoApp</h2>
+      </div>
+      <div class="col-xs-4">
+        <a href="#">
+          <img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat">
+        </a>
+      </div>
+    </div>
 
-    <h2 class="red-text text-center">CatPhotoApp</h2>
-
-    <p>Click here for
-      <a href="#">cat photos</a>.</p>
-
-    <a href="#">
-      <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat">
-    </a>
     <a href="#">
       <img class="img-responsive" src="https://bit.ly/fcc-running-cats" alt="five cat run">
     </a>
-    <button class="btn btn-block btn-primary" type="submit">Like</button>
-    <button class="btn btn-block btn-info">Info</button>
-    <button class="btn btn-block btn-danger">Delete</button>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Like</button>
+      </div>
+      <div class="col-xs-4">
+        <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i>Info</button>
+      </div>
+      <div class="col-xs-4">
+        <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
+      </div>
+    </div>
 
     <div class="gray-background">
-      <p>Things cats love:</p>
+      <p>Things cats
+        <span class="text-danger">love</span>
+      </p>
       <ul>
         <li>cat nip</li>
         <li>laser pointers</li>
