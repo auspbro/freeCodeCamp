@@ -8,7 +8,7 @@
   <title>Document</title>
   <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 
   <style>
     h2 {
@@ -44,13 +44,16 @@
 
     <div class="row">
       <div class="col-xs-4">
-        <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Like</button>
+        <button class="btn btn-block btn-primary">
+          <i class="fa fa-thumbs-up"></i>Like</button>
       </div>
       <div class="col-xs-4">
-        <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i>Info</button>
+        <button class="btn btn-block btn-info">
+          <i class="fa fa-info-circle"></i>Info</button>
       </div>
       <div class="col-xs-4">
-        <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
+        <button class="btn btn-block btn-danger">
+          <i class="fa fa-trash"></i>Delete</button>
       </div>
     </div>
 
@@ -71,11 +74,18 @@
       </ol>
     </div>
 
-    <form id="cat-photo-form" action="/submit-cat-photo">
-      <label>
-        <input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label>
-        <input type="radio" name="indoor-outdoor"> Outdoor</label>
+    <form action="/submit-cat-photo">
+      <div class="row">
+        <div class="col-xs-6">
+          <label>
+            <input type="radio" name="indoor-outdoor" checked> Indoor</label>
+        </div>
+        <div class="col-xs-6">
+          <label>
+            <input type="radio" name="indoor-outdoor"> Outdoor</label>
+        </div>
+      </div>
+
       <label>
         <input type="checkbox" name="personality" checked> Loving</label>
       <label>
