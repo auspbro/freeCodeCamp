@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap playground</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<!-- Only change code above this line.  -->
+
+<body>
+    <div class="container-fluid">
+        <h3 class="text-primary text-center">jQuery playground</h3>
+
+        <div class="row">
+            <div class="col-xs-6">
+                <h4>#left-well</h4>
+                <div class="well" id="left-well">
+                    <button id="target1" class="btn btn-default target">#target1</button>
+                    <button id="target2" class="btn btn-default target">#target2</button>
+                    <button id="target3" class="btn btn-default target">#target3</button>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <h4>#right-well</h4>
+                <div class="well" id="right-well">
+                    <button id="target4" class="btn btn-default target">#target4</button>
+                    <button id="target5" class="btn btn-default target">#target5</button>
+                    <button id="target6" class="btn btn-default target">#target6</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script> -->
+<!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script> -->
+<script>
+    $(document).ready(function () {
+        $("button").addClass("animated bounce");
+        $(".well").addClass("animated shake");
+        $("#target3").addClass("animated fadeOut");
+    });
+</script>
+
+
+</html>
