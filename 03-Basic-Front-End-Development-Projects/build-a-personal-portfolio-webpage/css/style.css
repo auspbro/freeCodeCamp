@@ -35,7 +35,7 @@ footer #footer-above{
   margin:0 auto; 
 }
 #banner{
-  background-color: lightseagreen !important;
+  background-color: rgb(134, 26, 26) !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-color: black;
@@ -48,7 +48,7 @@ footer #footer-above{
 }
 nav{
   font-size:13px;
-  background: lightseagreen;
+  background: rgb(134, 26, 26);
   -webkit-transition:all .3s;
   transition:all .3s;
 }
