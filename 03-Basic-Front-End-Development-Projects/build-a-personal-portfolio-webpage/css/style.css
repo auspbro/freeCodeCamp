@@ -35,10 +35,10 @@ footer #footer-above{
   margin:0 auto; 
 }
 #banner{
-  background-color:#722872 !important;
+  background-color: lightseagreen !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-color:#592059;
+  border-color: black;
 }
 #banner .container{width:95%;max-width:1024px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;
 }
@@ -48,7 +48,7 @@ footer #footer-above{
 }
 nav{
   font-size:13px;
-  background:#722872;
+  background: lightseagreen;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -62,7 +62,7 @@ nav{
 }
 .nav>li a{color:#ffffff;padding:10px 20px;
 }
-.nav>li a:hover{color:#722872;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+.nav>li a:hover{color:#000;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 .navbar-toggle{margin-right:0;
 }
